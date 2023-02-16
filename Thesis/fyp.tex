@@ -1,0 +1,204 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage{fyp}
+
+
+%%these packages are not really necessary if you dont need the code and proofs environments
+%%so if you like you can delete from here till the next comment
+%%note that there are some examples below which obviously won't work once you remove this part
+\usepackage{verbatim}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+%%this environment is useful if you have code snippets
+\newenvironment{code}
+{\footnotesize\verbatim}{\endverbatim\normalfont}
+
+%%the following environments are useful to present proofs in your thesis
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{definition}%plain}
+\newtheorem{example}{Example}[section]
+\theoremstyle{definition}%remark}
+\newtheorem{proposition}{Proposition}[section]
+\theoremstyle{definition}%remark}
+\newtheorem{lemma}{Lemma}[section]
+\theoremstyle{definition}%remark}
+\newtheorem{corollary}{Corollary}[section]
+\theoremstyle{definition}%remark}
+\newtheorem{theorem}{Theorem}[section]
+%%you can delete till here if you dont need the code and proofs environments
+
+
+
+\setlength{\headheight}{15pt}
+%\overfullrule=15pt
+
+
+\begin{document}
+
+
+
+%%make sure to enter this information
+\title{Music Composer Using Deep Learning}
+\author{Neil Bugeja}
+\date{enter a date}
+\supervisor{Mr. Tony Spiteri Staines	}
+\department{Faculty of ICT}
+\universitycrestpath{crest}
+\submitdate{enter a date} 
+
+\frontmatter
+
+
+\begin{acknowledgements}
+your acknowledgements
+\end{acknowledgements}
+       
+\begin{abstract}
+an abstract
+\end{abstract}
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\listofabbreviations
+
+\begin{center}
+\begin{tabular}{ c c c }
+ \textbf{NN}  & Neural Network\\ 
+ \textbf{UI}  & User Interface\\ 
+ cell4 & cell5 \\  
+ cell7 & cell8    
+\end{tabular}
+\end{center}
+
+
+
+\mainmatter
+
+\chapter{Introduction}
+
+Motivation - why is the problem being solved\\
+Problem definition - a clear description of the problem and how to check if the problem has been solved \\
+Limitations\\
+The proposed solution\\
+contributions\\
+
+(Music Composition with deep learning: A review)\\
+"Music is generally defined as a succession of pitches or rhythms, or both, in some definite pattern. Music composition (or generation) is the process of creating or writing a new piece of music. The music composition term can also refer to an original piece of work of music. Music composition requires creativity which is the unique human capacity to understand and produce an indefinitely large number of sentences in a language, most of which have
+never been encountered or spoken before [2]. This is a very important aspect that needs to be taken into account when
+designing or proposing an AI-based music composition algorithm."\\
+
+(Music transcription modelling and composition using deep learning)\\
+"The application of artificial neural networks to music modelling, composition
+and sound synthesis is not new, e.g., [9, 17, 27, 37, 38]; but what is new is the
+unprecedented accessibility to resources: from computational power to data, from
+superior training methods to open and reproducible research. This accessibility
+is a major reason “deep learning” methods [8, 25] are advancing far beyond
+state of the art results in many applications of machine learning, for example,
+image content analysis [24], speech processing [19] and recognition [16], text
+translation [35], and, more creatively, artistic style transfer [13], and Google’s
+Deep Dream. 5 As long as an application domain is “data rich,” deep learning
+methods stand to make substantial contributions." \\
+
+Deep learning is now being applied to music data, from analysing and mod-
+elling the content of sound recordings [22,23,26,32–34,40,41], to generating new
+music [3, 5, 33]. Avenues for exploring these directions are open to many since
+powerful software tools are free and accessible, e.g., Theano [1], and compati-
+ble computer hardware, e.g., graphical processing units, is inexpensive. This has
+led to a variety of “garden shed experiments” described in a timely manner on
+various public web logs. 6 The work we describe here moves beyond our informal
+experiments 7 to make several contributions.
+
+
+
+\chapter{Background}
+
+	\section{Deep Learning}
+	Deep Learning test
+
+		\begin{definition}
+		This is an example of a definition
+		\end{definition}
+
+		\begin{example}
+		This is an example of an example :)
+		\end{example}
+	
+	\section{Neural Network}
+	There are many NNs that can be used for this project and each will be discussed further below:
+	
+		\subsection{Variational Auto-Encoders (VAEs)} 
+		
+		
+		
+		\subsection{Long Short-Term Memory (LSTM)} 
+		
+		\subsection{Generative Adversarial Networks (GANs)}
+		
+		\subsection{Transformers}
+	
+	\section{Musical Theory}
+	
+	\section{Summary}
+
+\chapter{Literature review}
+
+Deep learning models for melody generation
+
+	\section{section 1}
+		Section 1 test
+
+
+	\section{section 2}
+		\begin{proof}
+		this is a proof
+		\end{proof}
+		
+	\section{Summary}
+	
+	
+\chapter{Design and Implementation}
+
+
+
+\chapter{Results and Discussion}
+	
+
+
+\chapter{Conclusions}
+
+	\section{Contributions}
+	
+	\section{Limitations}
+	
+	\section{Future Work}
+	
+	\section{Final Remarks}
+
+
+\appendix
+
+\chapter{This chapter is in the appendix}
+\section{These are some details}
+%%example of the code environment
+\begin{code}
+this is some code;
+I hope you found this template useful.
+\end{code}
+
+
+\bibliomatter
+
+
+
+\bibliographystyle{abbrv}
+ \bibliography{references}
+ 
+\end{document}
