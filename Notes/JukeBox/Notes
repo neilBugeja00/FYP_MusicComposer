@@ -1,0 +1,11 @@
+Running jukebox on colab:
+
+https://colab.research.google.com/github/openai/jukebox/blob/master/jukebox/Interacting_with_Jukebox.ipynb#scrollTo=TPZENDGZqOOb
+https://www.reddit.com/r/Openaijukebox/comments/ldni11/tutorial_using_openai_jukebox_in_2021_google_colab/
+
+
+artists:
+https://github.com/openai/jukebox/blob/master/jukebox/data/ids/v2_artist_ids.txt
+
+genre:
+https://github.com/openai/jukebox/blob/master/jukebox/data/ids/v2_genre_ids.txt
